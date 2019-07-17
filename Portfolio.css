@@ -1,0 +1,981 @@
+            html {overflow-y: hidden; overflow-x: hidden;}
+            #metroflex
+            {
+                display:flex;
+                justify-content: center;
+            }
+            #metro
+            {  
+                position: absolute;
+                margin-top: 100px;
+                z-index: 0;
+            }
+            #BigStation_flex
+            {
+                display: flex;
+                justify-content: center;
+            }
+            #BigStation
+            {
+                position: relative;
+                font-size: 27px;
+                font-weight: 900;
+                font-family: 'Nanum Square';
+                width: 850px;
+                height: 550px;
+                margin-top: 60px;
+            }
+            #Presentation
+            {
+                position: absolute;
+                padding-top: 0px;
+                padding-left:108px;
+                z-index: 130;
+                color: #ff0077;
+            }
+            #Planner
+            {
+               
+                position: absolute;
+                color: #ffce22;
+                padding-top:225px;
+                padding-left:355px;
+                z-index:80;
+            }
+            #Design
+            {
+                position: absolute;
+                padding-left:0px;
+                padding-top: 464px;
+                color: #3fdf7a;
+                z-index:110;
+            }
+          
+            #WEB
+            {
+                position: absolute;
+                color: #43e5ff;
+                padding-bottom: 510px;
+                padding-left: 350px;
+                padding-top: 0px;
+                padding-right: 610px;
+                z-index:20;
+                -webkit-transform: rotate(90deg);
+            }   
+            #Main
+            {
+                position: absolute;
+                color: #8065ff;
+                padding-top: 505px;
+                padding-left: 515px;
+                z-index:30;
+            
+            }
+            #Achievement
+            {
+                position: absolute;
+                color: #33334f;
+                padding-top: 285px;
+                padding-left: 588px;
+                z-index:60;               
+            }
+
+          
+            #mainflex
+            {
+                display:flex;
+                justify-content: center;
+                height:250px;
+                margin-top:50px;
+            }
+            #title
+            {
+                position: absolute;
+                z-index:13;
+                color: #33334f;
+                font-size: 50px;
+                font-weight: 900;
+                font-family: 'Nanum Square';
+                
+            }
+            #hr
+            {
+                position: absolute;
+                z-index:12;
+                border: solid 4px #33334f;
+                width: 100px;
+                margin-top:80px;
+        
+            }
+            #text
+            {   
+                position: absolute;
+                padding-top:120px;
+                z-index:11;
+                width: 548px;
+                height: 54px;
+                font-family: 'Nanum Square';
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 1.3px;
+                text-align: center;
+                color: #33334f;           
+            }
+
+
+            #DesignStation
+            {
+                width: 95px;
+                height: 290px;
+                position: absolute;
+                z-index: 120;
+                margin-top:122px;
+                margin-left: 18px;               
+                font-family: 'Nanum Square';
+                font-size: 13px;
+                font-weight: 55;
+                color:#33334f;          
+            }
+            #web_design
+            {
+                position: absolute;
+                z-index: 124;
+                padding-top: 0px;
+                padding-left:8px;
+            }
+            #app_design
+            {
+                position: absolute;
+                padding-top:88px;
+                padding-left:8px;
+                z-index:123;
+            }
+            #logo_design
+            {
+                position: absolute;
+                padding-top:178px;
+                padding-left:4px; 
+                z-index:122;
+            }
+            #other_design
+            {
+                position: absolute;
+                padding-top:269px;
+                z-index:121;
+            }
+            .Design{color:#33334f;}
+            .Design:link{text-decoration: none; color:#3fdf7a;}
+            .Design:hover{color: #3fdf7a;}
+            .Design:visited{text-decoration: none;}
+            .Design:active {text-decoration: none;}
+
+
+
+            .PresentationStation
+            {
+                width: 300px;
+                height: 60px;
+                position: absolute;
+                z-index: 100;
+                margin-top:105px;
+                margin-left: 218px;               
+                font-family: 'Nanum Square';
+                font-size: 13px;
+                font-weight: 55;
+                color:#33334f;   
+            }
+            #JARA_Project
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                z-index:103;
+            }
+            #JARAinDimigo
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-top:4px;
+                margin-left: 105px;
+                z-index:102;
+            }
+            #resources
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-left:210px;
+                margin-top:5px;
+                z-index:101;
+            }
+            .Presentation{color:#33334f;}
+            .Presentation:link{text-decoration: none; color:#ff0077;}
+            .Presentation:hover{color: #ff0077;}
+            .Presentation:visited{text-decoration: none;}
+            .Presentation:active {text-decoration: none;}
+
+
+          
+            .MainStation
+            {
+                position: absolute;
+                color:#33334f;
+                font-family: 'Nanum Square';
+                font-size: 13px;
+                font-weight: 55;
+                margin-left:220px;
+                margin-top:510px;
+                width: 280px;
+                height: 60px;
+                z-index:50;
+            }
+            #Sugyeom
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-top:8px;
+                z-index:53;
+
+            }
+            #Stats
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-top:0px;
+                margin-left: 118px;
+                z-index:52;
+            }
+            #goal
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-top:4px;
+                margin-left:215px;
+                z-index:51;
+            }   
+            .Main{color:#33334f;}
+            .Main:link{text-decoration: none; color:#8065ff;}
+            .Main:hover{color: #8065ff;}
+            .Main:visited{text-decoration: none;}
+            .Main:active {text-decoration: none;}
+
+
+            .PlannerStation
+            {
+                position: absolute;
+                color:#33334f;
+                font-family: 'Nanum Square';
+                font-size: 13px;
+                font-weight: 55;
+                margin-left:410px;
+                margin-top:300px;
+                width: 130px;
+                height: 60px;
+                z-index:70;
+            }
+            #study_check
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-top:18px;
+                z-index:72;
+            }
+            #diary
+            {
+                position:absolute;
+                -webkit-transform: rotate(60deg);
+                margin-left:78px;
+                z-index:71;
+            }
+            .Planner{color:#33334f;}
+            .Planner:link{text-decoration: none; color:#ffce22;}
+            .Planner:hover{color: #ffce22;}
+            .Planner:visited{text-decoration: none;}
+            .Planner:active {text-decoration: none;}
+
+            
+            .AchievementStation
+            {
+                position: absolute;
+                font-size: 13px;
+                color:#33334f;
+                font-family: 'Nanum Square';
+                font-weight: 55;
+                margin-left:595px;
+                margin-top:335px;
+                height: 200px;
+                z-index:40;
+            }
+            #Awards
+            {
+                position: absolute;
+                z-index: 42;
+            }
+            #Attended
+            {
+                position: absolute;
+                margin-top: 66px;
+                z-index:41;
+            }
+            .Achievement{color:#33334f;}
+            .Achievement:link{text-decoration: none; color:gray;}
+            .Achievement:hover{color: grey;}
+            .Achievement:visited{text-decoration: none;}
+            .Achievement:active {text-decoration: none;}
+
+
+            .WEBstation
+            {
+                position: absolute;
+                font-size: 13px;
+                color:#33334f;
+                font-family: 'Nanum Square';
+                font-weight: 55;
+                margin-left:510px;
+                margin-top:125px;
+                width: 300px;
+                z-index: 90;
+            }
+            #complete
+            {
+                position: absolute;
+                -webkit-transform: rotate(60deg);
+                margin-top:65px;
+                margin-left:58px;
+                z-index:92;
+            }
+            #on_going
+            {
+                position: absolute;
+                -webkit-transform: rotate(60deg);
+                margin-left:118px;
+                margin-top:35px;
+                z-index:91;
+            }
+            .WEB{color:#33334f;}
+            .WEB:link{text-decoration: none; color:#43e5ff;}
+            .WEB:hover{color: #43e5ff;}
+            .WEB:visited{text-decoration: none;}
+            .WEB:active {text-decoration: none;}
+
+            @media (max-height:1500px){
+            body{margin-top:15vh;}
+            }
+            @media (max-height:1200px){
+            body{margin-top:6vh;}
+            }
+            @media (max-height:700px){
+            body{margin-top:0px;}
+            }  
+        
+            
+            @media ( max-width : 1000px )
+            {
+                
+                html {overflow-y: hidden; overflow-x: hidden;}
+                
+                #metroflex
+                {
+                    display:flex;
+                    justify-content: center;
+                }
+                #metro
+                {  
+                    position: absolute;
+                    margin-top: 160px;
+                    z-index: 0;
+                }
+                #metroimg
+                {  
+                   width: 400px;;
+                }   
+                #BigStation
+                {
+                   width:600px;
+                   height: 400px;
+                   margin-top: 100px;
+                }
+                #Presentation
+                {
+                    padding-left: 272px;
+                    padding-top: 80px;
+                    z-index:100;
+                    font-size: 16px;
+                }
+                #WEB
+                {
+                    padding-left: 460px;
+                    padding-top: 114px;
+                    padding-right:0px;
+                    -webkit-transform: rotate(0deg);
+                    z-index:0;
+                    font-size: 16px;
+                }
+                #Design
+                {
+                    padding-left: 106px;
+                    padding-top: 344px;
+                    font-size: 16px;
+                }
+                #Planner
+                {
+                    padding-left: 254px;
+                    padding-top: 173px;
+                    font-size: 16px;
+                }
+                #Achievement
+                {
+                    padding-left:400px;
+                    padding-top: 206px;
+                    z-index:43;
+                    font-size: 16px;
+                }
+                #Main
+                {
+                    padding-left: 388px;
+                    padding-top: 344px;
+                    font-size: 16px;
+                }
+                #title
+                {
+                    font-size: 45px;
+                }
+                #hr
+                {
+                    width: 55px;
+                    border: solid 1px #33334f;
+                }
+                #text
+                {
+                    font-size: 16px;
+                    width: 318px;
+                }
+                #DesignStation
+                {
+                    width:100px;
+                    height: 200px;
+                    font-size: 14px;
+                    margin-top: 106.5px;
+                    margin-left: 120px;
+                }
+                #web_design
+                {
+                    padding-left:0px;
+                }
+                #app_design
+                {
+                   padding-top:55px; 
+                   padding-left:0px;
+                }
+                #logo_design
+                {
+                    padding-top:110px;
+                    padding-left:0px;
+                }
+                #other_design
+                {
+                    padding-top:166px;
+                    padding-left:0px;
+                }
+                .MainStation
+                {
+                    margin-top:354px;
+                    width:225px;
+                    height:40px;
+                    margin-left:170px;
+                    font-size: 14px;
+                }
+                #Sugyeom
+                {
+                    margin-left: 0px;
+                    
+                }
+                #Stats
+                {
+                    margin-left: 72px;
+                    
+                }
+                #goal
+                {
+                    margin-left:130px;
+                 
+                }
+                .PlannerStation
+                {
+                    width:100px;
+                    height:40px;
+                    margin-top:222px;
+                    margin-left:283px;
+                    font-size:14px;
+                }
+                #diary
+                {
+                    margin-left:54px;
+                }
+                #mainflex
+                {
+                    display:flex;
+                    justify-content: center;
+                }
+                .AchievementStation
+                {
+                    width:60px;
+                    height:50px;
+                    margin-top:238px;
+                    margin-left:398px;
+                    font-size:14px;
+                }
+                #Attended
+                {
+                    margin-top:39px;
+                }
+                .WEBstation
+                {                   
+                    width:120px;
+                    height:60px;
+                    margin-top:105px;
+                    margin-left:370px;
+                    font-size:14px;
+                }
+                #on_going
+                {
+                    margin-left:39px;
+                    margin-top:14px;
+                }
+                #complete
+                {
+                    margin-left:2px;
+                    margin-top:32px;
+                }
+                .PresentationStation
+                {
+                    width:260px;
+                    height:70px;
+                    margin-top:6px;
+                    margin-left:112px;
+                }
+                #JARA_Project
+                {
+                    margin-left:0px;
+                    margin-top:6px;
+                    font-size:14px;
+                }
+                #JARAinDimigo
+                {
+                    margin-left:62px;
+                    margin-top:6px;
+                    font-size:14px;
+                }
+                #resources
+                {
+                    margin-left:125px;
+                    font-size:8px;
+                    font-size:14px;
+                }
+            }
+
+            @media ( max-width : 750px )
+            {
+                html {overflow-y: hidden; overflow-x: hidden;}
+                
+                #metroflex
+                {
+                    display:flex;
+                    justify-content: center;
+                }
+                #metro
+                {  
+                    position: absolute;
+                    margin-top: 95px;
+                    z-index: 0;
+                }
+                #metroimg
+                {  
+                   width: 335px;
+                }   
+                #BigStation
+                {
+                   font-size: 13px;
+                   width:500px;
+                   height: 350px;
+                   margin-top:53.5px;
+                }
+                #Presentation
+                {
+                    padding-left: 232px;
+                    padding-top: 58px;
+                    z-index:100;
+                }
+                #WEB
+                {
+                    padding-left: 388px;
+                    padding-top: 83px;
+                    padding-right:0px;
+                    -webkit-transform: rotate(0deg);
+                    z-index:0;
+                }
+                #Design
+                {
+                    padding-left: 88px;
+                    padding-top: 278px;
+                }
+                #Planner
+                {
+                    padding-left: 214px;
+                    padding-top: 136px;
+                }
+                #Achievement
+                {
+                    padding-left:337px;
+                    padding-top: 165px;
+                    z-index:43;
+                }
+                #Main
+                {
+                    padding-left: 320px;
+                    padding-top: 278px;
+                }
+                #title
+                {
+                    font-size: 40px;
+                }
+                #hr
+                {
+                    width: 55px;
+                    border: solid 2px #33334f;
+                }
+                #text
+                {
+                    font-size: 10px;
+                    width: 260px;
+                }
+                #DesignStation
+                {
+                    width:80px;
+                    height: 150px;
+                    font-size: 8px;
+                    margin-top: 80px;
+                    margin-left: 104px;
+                }
+                #web_design
+                {
+                    padding-left:0px;
+                }
+                #app_design
+                {
+                   padding-top:46px; 
+                   padding-left:0px;
+                }
+                #logo_design
+                {
+                    padding-top:93px;
+                    padding-left:0px;
+                }
+                #other_design
+                {
+                    padding-top:139px;
+                    padding-left:0px;
+                }
+                .MainStation
+                {
+                    margin-top:285px;
+                    width:150px;
+                    height:40px;
+                    margin-left:143.5px;
+                    font-size: 8px;
+                }
+                #Sugyeom
+                {
+                    margin-left: 0px;
+                    
+                }
+                #Stats
+                {
+                    margin-left: 60px;
+                    
+                }
+                #goal
+                {
+                    margin-left:110px;
+                 
+                }
+                .PlannerStation
+                {
+                    width:60px;
+                    height:40px;
+                    margin-top:170px;
+                    margin-left:242px;
+                    font-size:8px;
+                }
+                #diary
+                {
+                    margin-left:40px;
+                    margin-top:4px;
+                }
+                #mainflex
+                {
+                    margin-top: 2vh;
+                    height:80px;
+                }
+                .AchievementStation
+                {
+                    width:60px;
+                    height:50px;
+                    margin-top:190px;
+                    margin-left:337px;
+                    font-size:8px;
+                }
+                #Attended
+                {
+                    margin-top:34px;
+                }
+                .WEBstation
+                {                   
+                    width:80px;
+                    height:60px;
+                    margin-top:80px;
+                    margin-left:307px;
+                    font-size:8px;
+                }
+                #on_going
+                {
+                    margin-left:38px;
+                    margin-top:14px;
+                }
+                #complete
+                {
+                    margin-left:10px;
+                    margin-top:28px;
+                }
+                .PresentationStation
+                {
+                    width:280px;
+                    height:50px;
+                    margin-top:0px;
+                    margin-left:72px;
+
+                }
+                #JARA_Project
+                {
+                    margin-left:30px;
+                    margin-top:8px;
+                    font-size:8px;
+                }
+                #JARAinDimigo
+                {
+                    margin-left:84px;
+                    margin-top:8px;
+                    font-size:8px;
+                }
+                #resources
+                {
+                    margin-left:135px;
+                    margin-top:8px;
+                    font-size:8px;
+                }
+            }
+
+            @media ( max-width : 520px )
+            {
+                html {overflow-y: hidden; overflow-x: hidden;}
+                
+                #metroflex
+                {
+                    display:flex;
+                    justify-content: center;
+                }
+                #metro
+                {  
+                    position: absolute;
+                    margin-top: 95px;
+                    z-index: 0;
+                }
+                #metroimg
+                {  
+                   width: 240px;
+                }   
+                #BigStation
+                {
+                   width:300px;
+                   height: 280px;
+                   margin-top:53.5px;
+                }
+                #Presentation
+                {
+                    padding-left: 128px;
+                    padding-top: 50.8px;
+                    z-index:100;
+                    font-size: 10px;
+                }
+                #WEB
+                {
+                    padding-left: 247px;
+                    padding-top: 72px;
+                    padding-right:0px;
+                    -webkit-transform: rotate(0deg);
+                    z-index:0;
+                    font-size: 10px;
+                }
+                #Design
+                {
+                    padding-left: 33px;
+                    padding-top: 210px;
+                    font-size: 10px;
+                }
+                #Planner
+                {
+                    padding-left: 125px;
+                    padding-top: 108px;
+                    font-size: 10px;
+                }
+                #Achievement
+                {
+                    padding-left:208px;
+                    padding-top: 128px;
+                    z-index:43;
+                    font-size: 10px;
+                }
+                #Main
+                {
+                    padding-left: 198px;
+                    padding-top: 210px;
+                    font-size: 10px;
+                }
+                #title
+                {
+                    font-size: 30px;
+                }
+                #hr
+                { 
+                    width: 55px;
+                    border: solid 1px #33334f;
+                }
+                #text
+                {
+                    font-size: 8px;
+                    width: 215px;
+                }
+                #DesignStation
+                {
+                    width:80px;
+                    height: 120px;
+                    font-size: 3px;
+                    margin-top: 67.5px;
+                    margin-left: 44px;
+                }
+                #web_design
+                {
+                    padding-left:0px;
+                }
+                #app_design
+                {
+                   padding-top:32px; 
+                   padding-left:0px;
+                }
+                #logo_design
+                {
+                    padding-top:66px;
+                    padding-left:0px;
+                }
+                #other_design
+                {
+                    padding-top:99px;
+                    padding-left:0px;
+                }
+                .MainStation
+                {
+                    margin-top:216px;
+                    width:150px;
+                    height:40px;
+                    margin-left:70px;
+                    font-size: 8px;
+                }
+                #Sugyeom
+                {
+                    margin-left: 0px;
+                    
+                }
+                #Stats
+                {
+                    margin-left: 44px;
+                    
+                }
+                #goal
+                {
+                    margin-left:80px;
+                 
+                }
+                .PlannerStation
+                {
+                    width:60px;
+                    height:40px;
+                    margin-top:136px;
+                    margin-left:138px;
+                    font-size:8px;
+                }
+                #diary
+                {
+                    margin-left:33px;
+                    margin-top:4px;
+                }
+                #mainflex
+                {
+                    display:flex;
+                    justify-content: center;
+                    margin-top:5px;
+                }
+                .AchievementStation
+                {
+                    width:60px;
+                    height:50px;
+                    margin-top:146px;
+                    margin-left:208px;
+                    font-size:8px;
+                }
+                #Attended
+                {
+                    margin-top:24px;
+                }
+                .WEBstation
+                {                   
+                    width:100px;
+                    height:60px;
+                    margin-top:58px;
+                    margin-left:170px;
+                    font-size:8px;
+                }
+                #on_going
+                {
+                    margin-left:39px;
+                    margin-top:14px;
+                }
+                #complete
+                {
+                    margin-left:18px;
+                    margin-top:24px;
+                }
+                .PresentationStation
+                {
+                    width:180px;
+                    height:50px;
+                    margin-top:-3px;
+                    margin-left:32px;
+                    font-size:8px;  
+                }
+                #JARA_Project
+                {
+                    margin-left:0px;
+                    margin-top:8px;
+                    font-size:8px;
+                }
+                #JARAinDimigo
+                {
+                    margin-left:38px;
+                    margin-top:6px;
+                    font-size:8px;
+
+                }
+                #resources
+                {
+                    margin-left:76px;
+                    font-size:8px;
+                }
+            }
